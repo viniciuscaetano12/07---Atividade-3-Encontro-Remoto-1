@@ -1,6 +1,6 @@
 let numero;
 
-numero = 7;
+numero = 4;
 
 switch (numero) {
     case 1:
