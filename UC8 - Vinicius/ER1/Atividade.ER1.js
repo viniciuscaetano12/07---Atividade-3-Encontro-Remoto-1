@@ -23,6 +23,21 @@ else {
 
 let nomedapeca = 'Roda'
 
+switch (nomedapeca.length) {
+    case 0:
+        console.log('O nome da peça não pode ser vazio')
+    case 1:
+    case 2:
+    case 3:
+        console.log('O nome da peça deve ter mais de caracteres')
+        break;
+    default:
+        console.log('O nome da peça esta adequado para o cadastro')
+        break;
+}
+
+
+/*
 if (nomedapeca.length > 3) {
     console.log('O nome da peça esta adequado para o cadastro')
 }
@@ -32,6 +47,6 @@ else if (nomedapeca.length == 0){
 else{
     console.log('O nome da peça de ter mais de 3 caracteres, digite o nome adequado')
 }
-
+*/
 
 
